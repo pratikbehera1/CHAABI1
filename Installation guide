@@ -1,0 +1,12 @@
+Installation guide 
+Step 1 : Install the dependencies mentioned in the requirement.txt 
+   Use `pip install Requirements.txt`
+Step 2 : Download the following pickle files
+1."Collection.pkl" 
+   This file contains the Qdrant client which is used to get relevant context/documents to the question from the dataBase.
+2. "embedding_model.pkl"
+   This file contains the sentence transformer which uses the model multi-qa-MiniLM-L6-cos-v1 for embedding 
+3. "Reader.pkl"
+   This file contains the pipeline used for question and extracting answer 
+
+Step 3 : run the python file app.py to use the API model. Use the command `python app.py

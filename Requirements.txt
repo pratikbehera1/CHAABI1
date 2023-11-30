@@ -1,0 +1,7 @@
+!pip install -qq -U transformers
+!pip install -qq -U qdrant_client
+!pip install -qq -U Flask
+!pip install -qq pickle 
+!pip install  -qq torch 
+!pip install  -qq pandas
+!pip install  -qq flask_cors
